@@ -295,6 +295,9 @@ a.service-item h4 {
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+	.sticky a.navbar-nav-link {
+		color: #fff !important;
+	}
 	.show ul.top-social-link svg path {
 		fill: #bd7500 !important;
 	}
